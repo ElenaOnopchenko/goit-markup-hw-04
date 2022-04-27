@@ -381,12 +381,11 @@ img {
   background-color: var(--darck-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  flex-basis: calc((100% - 140px) / 2);
 }
 
 .adress-box {
-  max-width: 231px;
 }
+/*max-width: 231px;*/
 
 .logo {
   color: var(--primary-accent-color);
@@ -432,13 +431,11 @@ img {
 
 .footer-soc-content {
   display: block;
-  margin-left: 70px;
-  justify-content: center;
 }
+/*justify-content: center;*/
 
 .footer-soc-title {
   color: var(--primary-white-color);
-  display: flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -454,11 +451,11 @@ img {
 .footer-soc-link {
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 .footer-soc-icon {
