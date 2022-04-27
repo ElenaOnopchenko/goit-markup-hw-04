@@ -148,7 +148,7 @@ img {
     url(../images/hero_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -383,10 +383,6 @@ img {
   padding-bottom: 60px;
 }
 
-.adress-box {
-}
-/*max-width: 231px;*/
-
 .logo {
   color: var(--primary-accent-color);
   font-family: 'Raleway', Tahoma, sans-serif;
@@ -426,20 +422,20 @@ img {
 }
 
 .footer-container {
+  display: flex;
   align-items: baseline;
 }
 
 .footer-soc-content {
   display: block;
+  margin-left: 70px;
 }
-/*justify-content: center;*/
 
 .footer-soc-title {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   margin-bottom: 20px;
 }
 
